@@ -1,3 +1,1 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^(www\.)?cfgshop\.site$
-RewriteRule ^(.*)$ https://vk.link/besthvhserver/$1 [R=301,L]
+Redirect 301 / https://vk.link/besthvhserver
